@@ -1,0 +1,105 @@
+*{
+    background-color: black;
+}
+.main-container{
+    height:270px;
+    background-color: black;
+    color:white;
+}
+.header-text{
+    text-align: center;
+    color: #b7b7b7;
+    letter-spacing: 5px;
+    font-family: Fira Sans;
+    margin-bottom: 40px;
+}
+.navbar-menu{
+    justify-content: center;
+    gap: 2rem;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+}
+.navbar-nav{
+    gap: 2rem;
+}
+.nav-link{
+    font-size: 18px;
+}
+.main-title{
+    font-size: 55px;
+    color:#b7b7b7;
+    cursor: pointer;
+    transition: 1s;
+}
+.main-title:hover{
+    color: red;
+}
+.name{
+    color: #fff;
+}
+.name-1{
+    color: #db4f3d;
+}
+.nav-link:hover{
+    color: #ff0000;
+    transition: 1s;
+}
+ .dropdown-item{
+    background-color: rgb(72, 71, 71);
+    color: #fff;
+    width: 11rem;
+    height: 3rem;
+}
+.dropdown-item:hover{
+    color: red;
+}
+.about-text{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 120px;
+    font-family: Sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+.about-text-2{
+    font-weight: 700;
+    text-align: center;
+    margin-top:50px;
+    font-family: Sans-serif;
+    font-size: 20px;
+    color:grey;
+}
+.img2{
+    padding-bottom: 250px;
+}
+.wrapper{
+    text-align: center;
+    color:#b7b7b7;
+    margin-top: 90px;
+    padding-bottom: 2rem;
+}
+.footer-icons{
+    cursor: pointer;
+}
+
+.blue_line{
+    color:white;
+    text-decoration: none;
+}
+.blue_line:hover{
+    text-decoration: underline;
+    color: red;
+    transition: 1s;
+}
+.nav-item:hover{
+    color:red;
+}
+
+.navbar>.container-fluid{
+    justify-content: center;
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover { 
+  color: red !important;
+}
